@@ -38,10 +38,7 @@
     </li>
     <li><a href="#usage">Usage</a></li>
     <li>
-      <a href="#features">Features</a>
-    </li>
-    <li>
-      <a href="#incoming-features">Incoming Features</a>
+      <a href="#environment-variables">Environment Variables</a>
     </li>
   </ol>
 </details>
@@ -74,6 +71,16 @@ Copy and Paste this in the ```.env``` file
 ```txt
 JWT_TOKEN=my_token
 ```
+### Configure Discord Webhook
+In Discord, select the Server, under Text Channels, select Edit Channel (gear icon)
+
+Select Integrations > View Webhooks and click New Webhook.
+
+Copy the Webhook URL and paste in the ```.env``` file.
+```txt
+DISCORD_CHANNEL=link_of_webhook
+```
+
 <!-- USAGE EXAMPLES -->
 ## Usage
 
@@ -84,12 +91,13 @@ python3 launch.py
 
 ## Docker
 ### 🚧 Incoming...
-<!-- ## Features
-✅ %temp%<br>
 
-
-## Incoming Features
-❌ %temp%<br> -->
+## Environment Variables
+ | Variable Name                               |   Description
+ | ------------------------------------------- |:-----------------------------
+ | JWT_TOKEN                                   | Authentication Token for link your HoneyGain account (<a href="#configure-the-access-token">Here</a>)
+ | DISCORD_CHANNEL                             | Discord Webhook URL (<a href="#configure-discord-webhook">Here</a>)
+ | BOT_USERNAME                                | Name of the Bot 
 
 
 
