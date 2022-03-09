@@ -38,6 +38,9 @@
     </li>
     <li><a href="#usage">Usage</a></li>
     <li>
+      <a href="#docker">Docker</a>
+    </li>
+    <li>
       <a href="#environment-variables">Environment Variables</a>
     </li>
   </ol>
