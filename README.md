@@ -13,7 +13,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/Winkii/HoneyGain-Discord-Bot/">
-    <img src="https://github.com/Winkii/HoneyGain-Discord-Bot/Ressources/img/logo.jpg" alt="Logo" width="80" height="80">
+    <img src="https://github.com/Winkii/HoneyGain-Discord-Bot/blob/main/Ressources/img/logo.jpg" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">HoneyGain Discord Monitor</h3>
