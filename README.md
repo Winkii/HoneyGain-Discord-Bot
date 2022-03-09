@@ -12,7 +12,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/Winkii/HoneyGain-Discord-Bot/blob/main/Ressources/img/">
+  <a href="https://github.com/Winkii/HoneyGain-Discord-Bot/Ressources/img/">
     <img src="logo.jpg" alt="Logo" width="80" height="80">
   </a>
 
@@ -50,12 +50,13 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-### What is Honeygain ?
-It's an app that allows you to earn money simply by sharing your Internet. <br>
-My referral link : https://bit.ly/HoneyGain_ref
 
 It's an discord webhook for monitoring your Honeygain's balance.<br>
 
+### What is Honeygain ?
+
+It's an app that allows you to earn money simply by sharing your Internet. <br>
+My referral link : https://bit.ly/HoneyGain_ref
 
 <!-- GETTING STARTED -->
 ## Requirements
