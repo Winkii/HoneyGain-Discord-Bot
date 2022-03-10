@@ -24,8 +24,8 @@
   </p>
 </p>
 
-
-
+If you want to support me, thank you !<br>
+<a href="https://www.buymeacoffee.com/winkii" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 <!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
@@ -55,6 +55,7 @@
 ## About The Project
 
 It's an discord webhook for monitoring your Honeygain's balance.<br>
+Bot send a message every hours.
 
 ### What is Honeygain ?
 
