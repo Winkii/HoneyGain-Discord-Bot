@@ -91,12 +91,24 @@ DISCORD_CHANNEL=link_of_webhook
 ## Usage
 
 Use this command for execute the HoneyGain Discord Monitor.
-   ```sh
+```sh
+git clone https://github.com/Winkii/HoneyGain-Discord-Bot
+cd HoneyGain-Discord-Bot
 python3 launch.py
-   ```
+```
 
 ## Docker
-### 🚧 Incoming...
+```sh
+git clone https://github.com/Winkii/HoneyGain-Discord-Bot
+cd HoneyGain-Discord-Bot
+```
+Edit environment variables in the ```.env``` file. ```JWT_TOKEN``` and ```DISCORD_CHANNEL``` are mandatory.
+After saved the ```.env``` file, run your container :
+
+```sh
+docker build -t honeygain-bot .
+docker run -d --name HoneyGain-BOT honeygain-bot
+```
 
 ## Environment Variables
  | Variable Name                               |   Description
