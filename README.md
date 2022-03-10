@@ -43,6 +43,9 @@
     <li>
       <a href="#environment-variables">Environment Variables</a>
     </li>
+        <li>
+      <a href="#incoming-features">Incoming Features</a>
+    </li>
   </ol>
 </details>
 
@@ -102,6 +105,8 @@ python3 launch.py
  | DISCORD_CHANNEL                             | Discord Webhook URL (<a href="#configure-discord-webhook">Here</a>)
  | BOT_USERNAME                                | Name of the Bot 
 
+## Incoming Features
+⏳ Notify payment requests
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
