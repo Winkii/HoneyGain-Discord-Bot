@@ -82,7 +82,7 @@ while True:
     winnings=convert_credits_to_money(stats_data['winning']['credits'])
 
     embed = DiscordEmbed(
-        title="Data Update !", color='03b2f8'
+        title="Data Update ! ["+str(difference("balance",balance))+"$]", color='03b2f8'
     )
     embed.set_thumbnail(
                 url="https://pbs.twimg.com/profile_images/1214149002700083200/CYslnxfM_400x400.jpg")
