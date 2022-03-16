@@ -80,9 +80,9 @@ while True:
     other=convert_credits_to_money(stats_data['other']['credits'])
     referrals=convert_credits_to_money(stats_data['referral']['credits'])
     winnings=convert_credits_to_money(stats_data['winning']['credits'])
-
+    diff_balance=str(difference("balance",balance))
     embed = DiscordEmbed(
-        title="Data Update ! ["+str(difference("balance",balance))+"$]", color='03b2f8'
+        title="Data Update ! ["+diff_balance+"$]", color='03b2f8'
     )
     embed.set_thumbnail(
                 url="https://pbs.twimg.com/profile_images/1214149002700083200/CYslnxfM_400x400.jpg")
@@ -93,7 +93,7 @@ while True:
     embed.add_embed_field(name="Referrals", value=str(referrals)+"$ ("+str(difference("referrals",referrals))+"$)")
     embed.add_embed_field(name="Content Delivery", value=str(cdn)+"$ ("+str(difference("cdn",cdn))+"$)")
     embed.add_embed_field(name="Other", value=str(other)+"$ ("+str(difference("other",other))+"$)")
-    embed.add_embed_field(name="Current Balance", value=str(balance)+"$ ("+str(difference("balance",balance))+"$)")
+    embed.add_embed_field(name="Current Balance", value=str(balance)+"$ ("+diff_balance+"$)")
     embed.add_embed_field(name="Lifetime", value=str(get_value('all','lifetime'))+"$")
     #embed.add_embed_field(name="Min Payout", value=str(min_payout)+"$")
 
